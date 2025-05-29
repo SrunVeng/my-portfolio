@@ -2,7 +2,7 @@
 
 This portfolio project is based on a fantastic tutorial that walks through building a modern, animated developer portfolio using React, TailwindCSS, and Vite. It includes features like dark mode, animations, project showcases, and responsive layouts.
 
-🎥 Full tutorial: Watch on YouTube
+🎥 Full tutorial: https://www.youtube.com/watch?v=ifOJ0R5UQOc&t=2363s
 
 
 License & Attribution
