@@ -52,10 +52,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Front End Development</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Solid foundational knowledge of HTML, CSS, JavaScript; familiar with React and Thymeleaf.
                   </p>
                 </div>
               </div>

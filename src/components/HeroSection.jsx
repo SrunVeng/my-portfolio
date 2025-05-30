@@ -4,14 +4,16 @@ export const HeroSection = () => {
   return (
       <section
           id="hero"
-          className="relative min-h-screen flex items-center justify-center px-4 bg-background overflow-hidden"
+          className="relative min-h-screen flex flex-col items-center justify-center px-4"
+      >
+      <div
+          id="hero"
+          className="relative min-h-screen flex items-center justify-center px-4"
       >
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full bg-[url('/burst-paint-bg.png')] bg-cover bg-center opacity-20 mix-blend-lighten"></div>
         </div>
-
         <div className="absolute inset-0 z-0 bg-stars bg-repeat"></div>
-
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center z-10">
           {/* Left: Text Content */}
           <div className="space-y-6 text-center md:text-left">
@@ -54,7 +56,7 @@ export const HeroSection = () => {
           <span className="text-sm text-muted-foreground mb-2">Scroll</span>
           <ArrowDown className="h-5 w-5 text-primary" />
         </div>
+      </div>
       </section>
-
   );
 };
