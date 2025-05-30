@@ -32,7 +32,7 @@ export const HeroSection = () => {
                 View My Work
               </a>
               <a
-                  href="/src/assets/resume/Veng%20Srun.pdf"
+                  href="public/resume/Veng Srun.pdf"
                   download
                   className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
@@ -45,7 +45,7 @@ export const HeroSection = () => {
           {/* Right: Image */}
           <div className="flex justify-center md:justify-end">
             <img
-                src="src/assets/my-profile.jpg"
+                src="/public/my-profile.jpg"
                 alt="Srun Veng"
                 className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-xl border-4 border-primary animate-fade-in-delay-2"
             />
