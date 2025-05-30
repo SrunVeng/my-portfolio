@@ -45,7 +45,7 @@ export const HeroSection = () => {
           {/* Right: Image */}
           <div className="flex justify-center md:justify-end">
             <img
-                src="/public/my-profile.jpg"
+                src="/my-profile.jpg"
                 alt="Srun Veng"
                 className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-xl border-4 border-primary animate-fade-in-delay-2"
             />
